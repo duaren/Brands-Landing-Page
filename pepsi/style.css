@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+section {
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    padding: 100px;
+    background: #0062be;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: 0.5s;
+
+}
+
+header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .logo {
+    position: relative;
+    display: flex;
+    display: inline-block;
+    color: #fff;
+    font-weight: 400;
+    margin-left: 40px;
+}
+
+header ul{
+    position: relative;
+    display: flex;
+}
+
+header ul li {
+    list-style: none;
+}
+
+header ul li a {
+    display: inline-block;
+    color: #fff;
+    font-weight: 400;
+    margin-left: 40px;
+    text-decoration: none;
+}
+
+.content {
+    position: relative;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    width: 100%;
+}
+
+.content .text {
+    position: relative;
+    max-width: 600px;
+}
+
+.content .text h2 {
+    color: #fff;
+    font-size: 4em;
+    font-weight: 900;
+    line-height: 1.5em;
+    text-transform: uppercase;
+}
+
+.content .text h2 span {
+    font-size: 2em;
+}
+
+.content .text p {
+    color: #fff;
+}
