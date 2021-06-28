@@ -1,3 +1,3 @@
 # Brands-Landing-Page
-* Pepsi
-* Coca-Cola
+* [Pepsi](https://duaren.github.io/Brands-Landing-Page/pepsi)
+* [Coca-Cola](https://duaren.github.io/Brands-Landing-Page/Coca-Cola)
