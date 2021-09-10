@@ -43,6 +43,7 @@ header .logo {
 header ul{
     position: relative;
     display: flex;
+    transition: 0.5s;
 }
 
 header ul li {
